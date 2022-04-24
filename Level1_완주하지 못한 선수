@@ -1,0 +1,31 @@
+# 1번코드 - 시간초과
+#def solution(participant, completion):
+#    answer = ''
+#    for par in participant:
+#        if par in completion:
+#            completion.remove(par)
+#        else:
+#            answer = par
+#    return answer
+
+# 2번코드 - 시간초과
+#def solution(participant, completion):
+#    answer = ''
+#    for com in completion:
+#        participant.remove(com)
+#    answer = ','.join(participant)
+#    return answer
+
+# 3번 코드 - 예제3 실행불가
+#import re
+#def solution(participant, completion):
+#    answer = ''
+#    answer = str(set(participant)-set(completion))
+#    answer = re.sub("{}",'',answer)
+#    answer = answer.replace("{","").replace("}","").replace("'","")
+#    return answer
+
+# 4번코드
+def solution(participant, completion):
+    answer = ''
+    return answer
